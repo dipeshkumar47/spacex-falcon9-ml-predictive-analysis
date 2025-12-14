@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bdf84c419728f7ddf4973c123bfd3a84 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bdf84c419728f7ddf4973c123bfd3a84" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bdf84c419728f7ddf4973c123bfd3a84 = L.map(
+                "map_bdf84c419728f7ddf4973c123bfd3a84",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a4fb8089229e521be0952b6e28c05836 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a4fb8089229e521be0952b6e28c05836.addTo(map_bdf84c419728f7ddf4973c123bfd3a84);
+        
+    
+            var marker_cluster_dbfcd787874c789dd992f03d8097a91c = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_961679792ee28883d8fc5882900d538b = L.marker(
+                [28.5618571, -80.577366],
+                {
+}
+            ).addTo(marker_cluster_dbfcd787874c789dd992f03d8097a91c);
+        
+    
+            var icon_8907e19995e2b4f4a279fab8a49cb5ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "rocket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0cba4caa17fa28c8547f4a8da3cd01f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e06006645a324da588a4cc300e4cf10 = $(`<div id="html_1e06006645a324da588a4cc300e4cf10" style="width: 100.0%; height: 100.0%;"><strong>CCSFS SLC 40</strong><br>Success Rate: 64.29%</div>`)[0];
+                popup_0cba4caa17fa28c8547f4a8da3cd01f9.setContent(html_1e06006645a324da588a4cc300e4cf10);
+            
+        
+
+        marker_961679792ee28883d8fc5882900d538b.bindPopup(popup_0cba4caa17fa28c8547f4a8da3cd01f9)
+        ;
+
+        
+    
+    
+                marker_961679792ee28883d8fc5882900d538b.setIcon(icon_8907e19995e2b4f4a279fab8a49cb5ca);
+            
+    
+            var marker_204f36c06ee3df9aacabec316f81d8ff = L.marker(
+                [34.632093, -120.610829],
+                {
+}
+            ).addTo(marker_cluster_dbfcd787874c789dd992f03d8097a91c);
+        
+    
+            var icon_758a11011e920f787b2f056c9b260766 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "rocket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_075f264ab4b3d1b3b7cfd2b3f5cc2857 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8f54ce49faffecfcecc402c319ca60c = $(`<div id="html_d8f54ce49faffecfcecc402c319ca60c" style="width: 100.0%; height: 100.0%;"><strong>VAFB SLC 4E</strong><br>Success Rate: 76.67%</div>`)[0];
+                popup_075f264ab4b3d1b3b7cfd2b3f5cc2857.setContent(html_d8f54ce49faffecfcecc402c319ca60c);
+            
+        
+
+        marker_204f36c06ee3df9aacabec316f81d8ff.bindPopup(popup_075f264ab4b3d1b3b7cfd2b3f5cc2857)
+        ;
+
+        
+    
+    
+                marker_204f36c06ee3df9aacabec316f81d8ff.setIcon(icon_758a11011e920f787b2f056c9b260766);
+            
+    
+            var marker_d1016e38a3d0a7dac33f45523cf10169 = L.marker(
+                [28.6080585, -80.6039558],
+                {
+}
+            ).addTo(marker_cluster_dbfcd787874c789dd992f03d8097a91c);
+        
+    
+            var icon_2d46ec9ccb2d2947c3d428fd5bf8dc79 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "rocket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3906545a8d016849f8bd93dbf2e9486c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b4b85cfe0edd8c875af3029eaf7a4cf = $(`<div id="html_9b4b85cfe0edd8c875af3029eaf7a4cf" style="width: 100.0%; height: 100.0%;"><strong>KSC LC 39A</strong><br>Success Rate: 82.76%</div>`)[0];
+                popup_3906545a8d016849f8bd93dbf2e9486c.setContent(html_9b4b85cfe0edd8c875af3029eaf7a4cf);
+            
+        
+
+        marker_d1016e38a3d0a7dac33f45523cf10169.bindPopup(popup_3906545a8d016849f8bd93dbf2e9486c)
+        ;
+
+        
+    
+    
+                marker_d1016e38a3d0a7dac33f45523cf10169.setIcon(icon_2d46ec9ccb2d2947c3d428fd5bf8dc79);
+            
+    
+            var marker_29d713fb69ae81e5ad548f927dac9959 = L.marker(
+                [9.0477206, 167.7431292],
+                {
+}
+            ).addTo(marker_cluster_dbfcd787874c789dd992f03d8097a91c);
+        
+    
+            var icon_4646f8d5d46af6a749883b75951be712 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "rocket",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0102b854836e71ba1ba66a442deaf600 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3a312b8aa98f145b37b31da7f1a14ae = $(`<div id="html_b3a312b8aa98f145b37b31da7f1a14ae" style="width: 100.0%; height: 100.0%;"><strong>Kwajalein Atoll</strong><br>Success Rate: 0.00%</div>`)[0];
+                popup_0102b854836e71ba1ba66a442deaf600.setContent(html_b3a312b8aa98f145b37b31da7f1a14ae);
+            
+        
+
+        marker_29d713fb69ae81e5ad548f927dac9959.bindPopup(popup_0102b854836e71ba1ba66a442deaf600)
+        ;
+
+        
+    
+    
+                marker_29d713fb69ae81e5ad548f927dac9959.setIcon(icon_4646f8d5d46af6a749883b75951be712);
+            
+    
+            marker_cluster_dbfcd787874c789dd992f03d8097a91c.addTo(map_bdf84c419728f7ddf4973c123bfd3a84);
+        
+    
+            tile_layer_a4fb8089229e521be0952b6e28c05836.addTo(map_bdf84c419728f7ddf4973c123bfd3a84);
+        
+    
+                marker_961679792ee28883d8fc5882900d538b.setIcon(icon_8907e19995e2b4f4a279fab8a49cb5ca);
+            
+    
+                marker_204f36c06ee3df9aacabec316f81d8ff.setIcon(icon_758a11011e920f787b2f056c9b260766);
+            
+    
+                marker_d1016e38a3d0a7dac33f45523cf10169.setIcon(icon_2d46ec9ccb2d2947c3d428fd5bf8dc79);
+            
+    
+                marker_29d713fb69ae81e5ad548f927dac9959.setIcon(icon_4646f8d5d46af6a749883b75951be712);
+            
+    
+            marker_cluster_dbfcd787874c789dd992f03d8097a91c.addTo(map_bdf84c419728f7ddf4973c123bfd3a84);
+        
+</script>
+</html>

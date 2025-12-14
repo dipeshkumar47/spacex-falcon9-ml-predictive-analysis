@@ -1,0 +1,23 @@
+# Main configuration file for file paths and project settings
+
+data_paths:
+  raw: 'data/raw'
+  interim: 'data/interim'
+  processed: 'data/processed'
+  models: 'models'
+
+data_files:
+  raw_api_data: 'spacex_api_data.json'
+  raw_wiki_data: 'wiki_falcon9_table.csv'
+  launch_sites: 'launch_sites.json'
+
+  
+  wrangled_data: 'cleaned_launches.csv'
+  final_features: 'final_features.csv'
+  train_set: 'train_set.csv'
+  test_set: 'test_set.csv'
+
+project_settings:
+  target_column: 'class' # The column I want to predict (e.g., landing success)
+  random_state: 42
+  test_size: 0.2

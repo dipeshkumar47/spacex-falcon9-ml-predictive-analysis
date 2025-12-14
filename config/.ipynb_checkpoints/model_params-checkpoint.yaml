@@ -1,0 +1,29 @@
+# Hyperparameters for machine learning models
+
+LogisticRegression:
+  C: [0.01, 0.1, 1, 10, 100]
+  penalty: ['l1', 'l2']
+  solver: ['liblinear']
+
+SVM:
+  C: [0.1, 1, 10, 100]
+  gamma: [1, 0.1, 0.01, 0.001]
+  kernel: ['rbf', 'linear']
+
+DecisionTree:
+  criterion: ['gini', 'entropy']
+  # 'null' is replaced by leaving it blank, which YAML reads as None
+  max_depth: [5, 10, 15, 20, ]
+  min_samples_split: [2, 5, 10]
+  min_samples_leaf: [1, 2, 4]
+
+RandomForest:
+  n_estimators: [100, 200, 300]
+  # Corrected: 'auto' is deprecated and has been replaced by 'sqrt'.
+  # For simplicity, I will just use 'sqrt' and 'log2'.
+  max_features: ['sqrt', 'log2']
+  # 'null' is replaced by leaving it blank
+  max_depth: [10, 20, 30, ]
+  min_samples_split: [2, 5, 10]
+  min_samples_leaf: [1, 2, 4]
+  bootstrap: [True, False]
