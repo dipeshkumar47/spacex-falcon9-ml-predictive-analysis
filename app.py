@@ -10,9 +10,9 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --------------------------------------------------
+
 # SIDEBAR (GLOBAL NAVIGATION AREA)
-# --------------------------------------------------
+
 with st.sidebar:
     st.markdown("## 🚀 SpaceX Falcon 9")
     st.markdown("### Machine Learning Project")
