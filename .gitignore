@@ -37,24 +37,20 @@ data/raw/
 data/interim/
 data/processed/
 
-# --------------------------------------------------
+
 # Models / Artifacts
-# --------------------------------------------------
 models/*.pkl
 models/*.joblib
 models/*.sav
 
 # Streamlit
-
 .streamlit/
 
 
 # Secrets / Config
-
 *.env
 .env
 
 # Temporary / Cache
-
 .cache/
 
