@@ -31,9 +31,9 @@ with st.sidebar:
     st.markdown("---")
     st.caption("Built with Streamlit • Localhost Demo")
 
-# --------------------------------------------------
+
 # MAIN LANDING PAGE CONTENT
-# --------------------------------------------------
+
 st.markdown(
     """
     <style>
