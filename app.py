@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 
-# SIDEBAR (GLOBAL NAVIGATION AREA)
+# SIDEBAR <GLOBAL NAVIGATION AREA>
 
 with st.sidebar:
     st.markdown("## 🚀 SpaceX Falcon 9")
