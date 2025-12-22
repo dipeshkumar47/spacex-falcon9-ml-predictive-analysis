@@ -1,8 +1,8 @@
 import streamlit as st
 
-# --------------------------------------------------
-# PAGE CONFIG (VERY IMPORTANT FOR AESTHETICS)
-# --------------------------------------------------
+
+# PAGE CONFIG (AESTHETICS)
+
 st.set_page_config(
     page_title="SpaceX Falcon 9 | ML Dashboard",
     page_icon="🚀",
